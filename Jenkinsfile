@@ -6,7 +6,8 @@ pipeline {
         echo 'Good Building'
         sh '''pwd 
 ls
-npm install'''
+apt install npm
+'''
       }
     }
 
