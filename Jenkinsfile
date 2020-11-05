@@ -5,7 +5,8 @@ pipeline {
       steps {
         echo 'Good Building'
         sh '''pwd 
-ls'''
+ls
+npm install'''
       }
     }
 
