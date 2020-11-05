@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Good Building'
-        sh '''npm install
+        sh '''pwd
 '''
       }
     }
