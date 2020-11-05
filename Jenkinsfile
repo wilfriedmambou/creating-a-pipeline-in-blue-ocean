@@ -3,7 +3,13 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'npm install'
+        sh '''git clone https://github.com/wilfriedmambou/creating-a-pipeline-in-blue-ocean.git >
+
+cd creating-a-pipeline-in-blue-ocean >
+
+npm install >
+
+echo "success">'''
       }
     }
 
